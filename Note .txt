@@ -1,7 +1,5 @@
 keep all functionality and component and ui same just solve the statusber and header problem and give full code
 
-For device compatibility and consistent UI, it’s almost always better to use the default header and customize it, rather than disabling it and building your own from scratch.
-
 safe area view issue and statusbar overlap problem, 
 Header overlap (under status bar)
 Keyboard overlap (hides inputs)
@@ -9,6 +7,8 @@ Screen size mismatch (poor scaling)
 Notch overlap (hidden top content)
 Font scaling issues (text breaks layout)
 Corner clipping (on curved screens)
+
+For device compatibility and consistent UI, it’s almost always better to use the default header and customize it, rather than disabling it and building your own from scratch.
 
 
 Use the Aqua Gradient Modern Theme or BlueMint Modern Theme style for all UI designs.

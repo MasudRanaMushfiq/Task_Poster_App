@@ -245,3 +245,5 @@ const styles = StyleSheet.create({
 
   phoneText: { marginTop: 12, fontSize: 16, color: '#1877F2', textAlign: 'center' },
 });
+
+
