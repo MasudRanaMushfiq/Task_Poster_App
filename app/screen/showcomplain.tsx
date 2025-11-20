@@ -186,3 +186,7 @@ const styles = StyleSheet.create({
   },
   feedbackBtnText: { color: "#fff", fontWeight: "700", fontSize: 14 },
 });
+
+
+
+

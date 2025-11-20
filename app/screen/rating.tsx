@@ -216,3 +216,7 @@ const styles = StyleSheet.create({
   submitBtn: { paddingVertical: 16, borderRadius: 12, alignItems: 'center' },
   submitBtnText: { color: '#fff', fontSize: 18, fontWeight: '700' },
 });
+
+
+
+

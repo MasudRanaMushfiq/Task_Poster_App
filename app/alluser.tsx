@@ -326,3 +326,5 @@ const styles = StyleSheet.create({
   },
   deleteText: { color: "#e63946", fontWeight: "600" },
 });
+
+

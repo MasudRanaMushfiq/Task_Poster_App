@@ -265,3 +265,6 @@ const pickerSelectStyles = StyleSheet.create({
   inputAndroid: { fontSize: 14, color: '#3B7CF5', paddingVertical: 8, flex: 1 },
   placeholder: { color: '#888' },
 });
+
+
+

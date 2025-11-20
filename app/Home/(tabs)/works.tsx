@@ -45,13 +45,13 @@ export default function WorksScreen() {
 
       querySnapshot.forEach((docSnap) => {
         const data = docSnap.data();
-        if (data.status === 'active') { // 🔹 Only active works
+        if (data.status === 'active') {
           worksList.push({ id: docSnap.id, ...data });
           if (data.userId) userIdSet.add(data.userId);
         }
       });
 
-      // 🔹 Sort by latest posted (descending)
+      // Sort by latest posted (descending)
       worksList.sort((a, b) => {
         const aTime = a.createdAt?.toDate ? a.createdAt.toDate().getTime() : 0;
         const bTime = b.createdAt?.toDate ? b.createdAt.toDate().getTime() : 0;

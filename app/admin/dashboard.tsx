@@ -51,7 +51,6 @@ export default function AdminDashboard() {
         );
         const completedPosts = completedSnap.size;
 
-        // Fetch complaints from the 'complains' collection instead of notifications
         const complaintsSnap = await getDocs(collection(db, "complains"));
         const totalComplaints = complaintsSnap.size;
 
@@ -206,3 +205,6 @@ const styles = StyleSheet.create({
   number: { fontSize: 28, fontWeight: "700", color: "#fff" },
   title: { fontSize: 14, fontWeight: "600", color: "#fff", textAlign: "center" },
 });
+
+
+

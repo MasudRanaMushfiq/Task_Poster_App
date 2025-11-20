@@ -7,7 +7,7 @@ import { auth } from "@/firebaseConfig";
 
 export default function Index() {
   const router = useRouter();
-  const [checkingAuth, setCheckingAuth] = useState(true); // Loading state
+  const [checkingAuth, setCheckingAuth] = useState(true); 
 
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (user) => {
@@ -113,3 +113,6 @@ const styles = StyleSheet.create({
     color: '#fff',
   },
 });
+
+
+

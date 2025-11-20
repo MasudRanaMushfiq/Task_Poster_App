@@ -38,11 +38,9 @@ const ProfileScreen = () => {
 
       setLoading(true);
 
-      // Fetch user info
       const userDoc = await getDoc(doc(db, 'users', currentUser.uid));
       if (userDoc.exists()) setUserData(userDoc.data());
 
-      // Check if user is admin from Firestore
       const adminDoc = await getDoc(doc(db, 'admins', currentUser.uid));
       setIsAdmin(adminDoc.exists());
     } catch (error) {
@@ -71,7 +69,7 @@ const ProfileScreen = () => {
 
   const handleEdit = () => router.push('/profile/editprofile');
   const handleAdmin = () => router.push('/admin/dashboard');
-  const handleComplain = () => router.push('/profile/complain'); // Updated button
+  const handleComplain = () => router.push('/profile/complain');
 
   const onRefresh = async () => {
     setRefreshing(true);
@@ -273,3 +271,6 @@ const styles = StyleSheet.create({
 });
 
 export default ProfileScreen;
+
+
+

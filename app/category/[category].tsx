@@ -181,7 +181,7 @@ export default function CategoryScreen() {
 
   return (
     <>
-      {/* ✅ Balanced Gradient Header */}
+      {/* Balanced Gradient Header */}
       <LinearGradient
         colors={['#3B7CF5', '#5AD9D5']}
         start={{ x: 0, y: 0 }}
@@ -267,7 +267,7 @@ const styles = StyleSheet.create({
 
   cardBorder: {
     borderRadius: 22,
-    padding: 2, // border thickness
+    padding: 2,
     marginBottom: 18,
   },
   card: {

@@ -120,7 +120,7 @@ export default function AcceptedSentNotification() {
     try {
       await updateDoc(doc(db, 'worked', work.id), { status: 'accepted' });
 
-      // 🔹 Added: Notify accepted user that work is not completed
+      // Added: Notify accepted user that work is not completed
       if (work.acceptedBy) {
         await addDoc(collection(db, 'notifications'), {
           workId: work.id,
@@ -254,3 +254,7 @@ const styles = StyleSheet.create({
   btn: { flex: 1, padding: 14, borderRadius: 12, alignItems: 'center', justifyContent: 'center', marginHorizontal: 6 },
   btnText: { color: '#fff', fontWeight: '700', fontSize: 16 },
 });
+
+
+
+

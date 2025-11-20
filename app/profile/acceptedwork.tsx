@@ -256,3 +256,6 @@ const styles = StyleSheet.create({
   contactBtn: { backgroundColor: '#3a125d', paddingVertical: 10, paddingHorizontal: 16, borderRadius: 6, alignItems: 'center' },
   contactBtnText: { color: '#fff', fontWeight: '700' },
 });
+
+
+

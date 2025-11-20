@@ -221,3 +221,6 @@ const styles = StyleSheet.create({
   btn: { flex: 1, padding: 14, borderRadius: 12, alignItems: 'center', justifyContent: 'center', marginHorizontal: 6 },
   btnText: { color: '#fff', fontWeight: '700', fontSize: 16 },
 });
+
+
+

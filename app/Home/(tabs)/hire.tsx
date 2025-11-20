@@ -85,7 +85,7 @@ export default function HireScreen() {
 
   return (
     <>
-      {/* ✅ Gradient Header with StatusBar Fix */}
+      {/* Gradient Header with StatusBar Fix */}
       <LinearGradient
         colors={['#3B7CF5', '#5AD9D5']}
         start={{ x: 0, y: 0 }}
@@ -216,3 +216,5 @@ const styles = StyleSheet.create({
     fontSize: 16,
   },
 });
+
+

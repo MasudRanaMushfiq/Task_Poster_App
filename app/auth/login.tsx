@@ -13,10 +13,7 @@ import {
   Alert,
 } from 'react-native';
 import { Link, router } from 'expo-router';
-import {
-  signInWithEmailAndPassword,
-  sendPasswordResetEmail,
-} from 'firebase/auth';
+import {signInWithEmailAndPassword, sendPasswordResetEmail, } from 'firebase/auth';
 import NetInfo from '@react-native-community/netinfo';
 import { auth } from '../../firebaseConfig';
 import { LinearGradient } from 'expo-linear-gradient';
@@ -295,3 +292,5 @@ const styles = StyleSheet.create({
   errorWrapper: { minHeight: 22, marginBottom: 8 },
   errorText: { color: '#b91c1c', fontWeight: '600', textAlign: 'center' },
 });
+
+

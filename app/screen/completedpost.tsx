@@ -177,3 +177,5 @@ const styles = StyleSheet.create({
   statusText: { fontSize: 14, fontWeight: '700', paddingHorizontal: 10, paddingVertical: 4, borderRadius: 12 },
   inactiveStatus: { backgroundColor: '#ffebee', color: '#F44336' },
 });
+
+

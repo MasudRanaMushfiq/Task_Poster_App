@@ -195,7 +195,7 @@ const styles = StyleSheet.create({
   gradientCard: {
     borderRadius: 20,
     marginBottom: 14,
-    padding: 2, // gradient border thickness
+    padding: 2, 
     width: '100%',
   },
   workCard: {

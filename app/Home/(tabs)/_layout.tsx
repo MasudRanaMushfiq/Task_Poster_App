@@ -1,4 +1,4 @@
-// app/_layout.tsx or TabLayout.tsx
+
 import { Tabs } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
 import { useSafeAreaInsets, SafeAreaProvider } from 'react-native-safe-area-context';
@@ -34,7 +34,7 @@ function InnerTabs() {
         tabBarStyle: {
           backgroundColor: '#fff',
           borderTopColor: '#eee',
-          height: 60 + insets.bottom, // account for bottom inset
+          height: 60 + insets.bottom, 
           paddingBottom: 5 + insets.bottom,
           paddingTop: 5,
         },
@@ -46,7 +46,7 @@ function InnerTabs() {
           fontSize: 12,
         },
         tabBarItemStyle: {
-          paddingBottom: insets.bottom / 2, // optional extra safe spacing
+          paddingBottom: insets.bottom / 2,
         },
       })}
     />

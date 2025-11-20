@@ -40,7 +40,7 @@ const ComplainScreen = () => {
         fromUserId: currentUser?.uid || null,
         title,
         details,
-        status: 'pending', // optional status
+        status: 'pending', 
         createdAt: serverTimestamp(),
       });
 
@@ -170,3 +170,8 @@ const styles = StyleSheet.create({
 });
 
 export default ComplainScreen;
+
+
+
+
+

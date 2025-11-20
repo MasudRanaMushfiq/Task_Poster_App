@@ -133,7 +133,7 @@ export default function AcceptNotification() {
     try {
       await updateDoc(doc(db, 'worked', workId), { status: 'active', acceptedBy: null });
 
-      // 🔹 New: send notification to rejected user
+      // New: send notification to rejected user
       await addDoc(collection(db, 'notifications'), {
         message: `Your application for "${work.jobTitle}" has been rejected.`,
         type: 'rejected',
@@ -308,3 +308,6 @@ const styles = StyleSheet.create({
   btn: { flex: 1, padding: 14, borderRadius: 12, alignItems: 'center', justifyContent: 'center', marginHorizontal: 6 },
   btnText: { color: '#fff', fontWeight: '700', fontSize: 16 },
 });
+
+
+

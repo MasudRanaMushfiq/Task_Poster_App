@@ -93,7 +93,7 @@ export default function HomeScreen() {
 
   return (
     <SafeAreaView style={styles.safeArea}>
-      {/* ✅ Fixed Gradient Header with Correct StatusBar Handling */}
+      {/* Fixed Gradient Header with Correct StatusBar Handling */}
       <LinearGradient
         colors={['#3B7CF5', '#5AD9D5']}
         start={{ x: 0, y: 0 }}
@@ -135,7 +135,7 @@ export default function HomeScreen() {
         </View>
       </LinearGradient>
 
-      {/* ✅ Main Category Section */}
+      {/* Main Category Section */}
       <View style={styles.container}>
         <Text style={styles.categoriesHeading}>Categories</Text>
 
@@ -171,7 +171,7 @@ export default function HomeScreen() {
           showsVerticalScrollIndicator={false}
         />
 
-        {/* ✅ Post Button */}
+        {/* Post Button */}
         <View style={styles.postBtnWrap}>
           <LinearGradient
             colors={['#3B7CF5', '#5AD9D5']}
@@ -202,7 +202,7 @@ const styles = StyleSheet.create({
   },
   headingRow: {
     flexDirection: 'row',
-    alignItems: 'center', // ✅ aligns properly
+    alignItems: 'center', 
     justifyContent: 'space-between',
     paddingVertical: 22,
   },
@@ -280,3 +280,6 @@ const styles = StyleSheet.create({
     letterSpacing: 0.5,
   },
 });
+
+
+

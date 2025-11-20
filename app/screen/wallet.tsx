@@ -172,7 +172,7 @@ const styles = StyleSheet.create({
   gradientCard: {
     borderRadius: 12,
     marginBottom: 20,
-    padding: 2, // For gradient border effect
+    padding: 2, 
   },
   walletRow: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' },
   headerText: { fontSize: 20, fontWeight: '700', color: '#1877F2', marginBottom: 12 },
@@ -187,3 +187,6 @@ const styles = StyleSheet.create({
   homeBtn: { paddingVertical: 14, borderRadius: 12, alignItems: 'center', marginTop: 30 },
   homeText: { color: '#fff', fontWeight: '700', fontSize: 16 },
 });
+
+
+
