@@ -1,5 +1,5 @@
 
-# Task Poster
+# Task Poster Mobile App
 **Platforms:** Android (Expo / React Native), potentially iOS in the future  
 **Framework:** React Native with Expo Router  
 **Database / Backend:** Firebase (Auth, Firestore)  
@@ -11,6 +11,25 @@
 **Task Poster** is a mobile task/job marketplace where users can post tasks they want done and other users can accept or complete those tasks in exchange for payment. The app tracks ratings, reviews, wallet balances, and provides admin functionality for user management.
 
 ---
+
+### App Preview
+- [Download This App ](https://drive.google.com/file/d/1n4_0mQHX-zHow3mRZr-FeuZ0HKX9O5Zi/view?usp=drive_link)
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/187ca656-2cc9-426f-a256-bddcd4a9281f" width="200"/></td>
+    <td><img src="https://github.com/user-attachments/assets/72424e27-e71a-4601-91d3-90ae0c80730f" width="200"/></td>
+    <td><img src="https://github.com/user-attachments/assets/cbb782c6-512a-4263-a4a3-7ebb63d49b23" width="200"/></td>
+    <td><img src="https://github.com/user-attachments/assets/a8d2bf8a-a6c4-4c9c-bbdc-8f46f510f859" width="200"/></td>
+  </tr>
+   <tr>
+    <td><img src="https://github.com/user-attachments/assets/1009b8f6-4167-46cc-8f78-68d76172982d" width="200"/></td>
+    <td><img src="https://github.com/user-attachments/assets/c51977c5-c2fb-4132-ad3d-d878c3fcad0f" width="200"/></td>
+    <td><img src="https://github.com/user-attachments/assets/9545f9f3-4ab6-4776-8658-c49742b256f5" width="200"/></td>
+    <td><img src="https://github.com/user-attachments/assets/ba9e8e06-2ec9-415d-8bd1-4168182c7cb3" width="200"/></td>
+  </tr>
+</table>
+
+--- 
 
 ## App Purpose
 
@@ -190,7 +209,8 @@ cd Task_Poster_App
 
 ## License
 
-This project is private. For contributions or usage, please contact with me.
+This project is private. For contributions or usage, please contact with me. 
+
 
 ---
 
